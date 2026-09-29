@@ -1,0 +1,171 @@
+<! html>13181523
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa UM Palangkaraya</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+        h1.main-title {
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 26px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        h2.univ-title {
+            color: #f1c40f;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            max-width: 900px;
+            margin-bottom: 40px;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            padding: 25px;
+            flex: 1;
+            min-width: 280px;
+            max-width: 420px;
+            box-sizing: border-box;
+        }
+        .card-header {
+            border-bottom: 2px solid #2a5298;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .card-header h3 {
+            margin: 0;
+            color: #2a5298;
+            font-size: 20px;
+        }
+        .bio-info {
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        .label {
+            font-weight: bold;
+            color: #555;
+            display: block;
+            font-size: 13px;
+            text-transform: uppercase;
+            margin-bottom: 2px;
+        }
+        .value {
+            color: #222;
+            font-size: 15px;
+        }
+        .cta-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            max-width: 500px;
+            width: 90%;
+            box-sizing: border-box;
+        }
+        .cta-text {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #1e3c72;
+        }
+        .btn-drive {
+            display: inline-block;
+            background-color: #27ae60;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);
+        }
+        .btn-drive:hover {
+            background-color: #219653;
+        }
+    </style>
+</head>
+<>
+
+    <h1 class="main-title">Profil Mahasiswa</h1>
+    <h2 class="univ-title">Universitas Muhammadiyah Palangkaraya</h2>
+
+    <div class="cards-container">
+        <!-- Mahasiswa 1 -->
+        <div class="card">
+            <div class="card-header">
+                <h3>Mahasiswa 1</h3>
+            </div>
+            <div class="bio-info">
+                <span class="label">Nama Lengkap</span>
+                <span class="value">Rahmansyah</span>
+            </div>
+            <div class="bio-info">
+                <span class="label">NIM</span>
+                <span class="value">24.24.032255</span>
+            </div>
+            <div class="bio-info">
+                <span class="label">Program Studi</span>
+                <span class="value">Pendidikan Teknologi Informasi</span>
+            </div>
+            <div class="bio-info">
+                <span class="label">Fakultas</span>
+                <span class="value">Bahasa Ilmu Pengetahuan dan Teknologi</span>
+            </div>
+        </div>
+
+        <!-- Mahasiswa 2 -->
+        <div class="card">
+            <div class="card-header">
+                <h3>Mahasiswa 2</h3>
+            </div>
+            <div class="bio-info">
+                <span class="label">Nama Lengkap</span>
+                <span class="value">Muhammad Fitriannur Akbar</span>
+            </div>
+            <div class="bio-info">
+                <span class="label">NIM</span>
+                <span class="value">24.24.031635</span>
+            </div>
+            <div class="bio-info">
+                <span class="label">Program Studi</span>
+                <span class="value">Pendidikan Teknologi Informasi</span>
+            </div>
+            <div class="bio-info">
+                <span class="label">Fakultas</span>
+                <span class="value">Bahasa Ilmu Pengetahuan dan Teknologi</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian Menu / Tombol Ke Google Drive -->
+    <div class="cta-container">
+        <div class="cta-text">Mau mengenal lebih lanjut kedua mahasiswa?</div>
+        <!-- GANTI TULISAN DI DALAM href="KODE_LINK_DISINI" DENGAN LINK GOOGLE DRIVE ANDA -->
+        <a href="https://drive.google.com/file/d/1yUuU9S_FJcUx-djngvOLaQEMB908I3k9/view?usp=drivesdk" target="_blank" class="btn-drive">
+            📄 Lihat Draf PDF Biodata
+        </a>
+    </div>
